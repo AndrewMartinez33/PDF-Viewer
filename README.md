@@ -6,9 +6,11 @@ The application renders one page at a time and allows you to click through the w
 Also, the application allows you to download the document.
 
 ## To-Do List
-* Make mobile responsive
-* Make download link dynamic
-* Add error message when there is no pdf document available
+- Make mobile responsive
+
+- Add download link dynamic
+
+- ~~Add error message when there is no pdf document available~~
 
 ## Screenshot
 ![PDF Viewer Screenshot](screenshot.png)
