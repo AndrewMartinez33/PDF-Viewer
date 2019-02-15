@@ -72,7 +72,17 @@ pdfjsLib.getDocument(url).promise.then(pdfDoc_ => {
 
   renderPage(pageNum);
 
-});
+})
+
+  .catch(err => {
+    // display error
+    const div = document.createElement('div');
+    div.className = 'error';
+    div.appendChild(document.createTextNode(err.message));
+    document.querySelector('body').insertBefore(div, canvas);
+    // remove top bar
+    document.querySelector('.top-bar').style.display = 'none';
+  });
 
 // Buttom events
 

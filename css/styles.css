@@ -31,3 +31,9 @@ a:link {
   text-decoration: none;
   color: white;
 }
+
+.error {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+}
