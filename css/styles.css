@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  padding: 10px;
+  background-color: darkcyan;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 5px 7px 5px 7px;
+  margin-right: 5px;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px rgb(66, 66, 66);
+  border-radius: 2%;
+}
+
+.title {
+  font-size: 1.25em;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
