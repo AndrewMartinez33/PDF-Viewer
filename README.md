@@ -8,6 +8,7 @@ Also, the application allows you to download the document.
 ## To-Do List
 * Make mobile responsive
 * Make download link dynamic
+* Add error message when there is no pdf document available
 
 ## Screenshot
 ![PDF Viewer Screenshot](screenshot.png)
